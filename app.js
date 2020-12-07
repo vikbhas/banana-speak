@@ -18,6 +18,7 @@ function errorHandler(error) {
 
 
 function clickHandler() {
+    console.log(txtInput)
     var inputText = txtInput.value; // taking input
 
     // calling server for processing
